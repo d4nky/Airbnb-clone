@@ -4,10 +4,15 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>airbnb</title>
+		<link rel="stylesheet" href="style.css">
+		<title>Airbnb</title>
 	</head>
 	<body>
-		<nav>
+		
+		<nav id="mobile-nav">
+			<p>Where are you going?</p>
+		</nav>
+		<nav id="desktop-nav">
 			<div class="logo"></div>
 			<div class="search-bar">
 				<input placeholder="Start your search" type="text" />
@@ -19,11 +24,16 @@
 				<div class="menu"></div>
 			</div>
 		</nav>
-
+		<section id="new-section">
+			<h1>Help house 100,000 refugees fleeing Ukraine</h1>
+			<button id="learn-more"><p>Learn more</p></button>
+		</section>
 		<section id="section-1">
 			<div id="card-1">
-				<h1>Not sure where to go? Perfect.</h1>
-				<button id="flexible">I'm flexible</button>
+				<div id="content">
+					<h1>Let your curiosity do the booking</h1>
+					<button id="flexible"><p>I'm flexible</p></button>
+				</div>
 			</div>
 		</section>
 
