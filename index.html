@@ -8,21 +8,29 @@
 		<title>Airbnb</title>
 	</head>
 	<body>	
+		<div id="desktop-nav">
+			<div id="left-nav">
+				<div id="logo"><img src="imgs/airbnb logo.svg" alt=""></div>
+				<div class="search-bar">
+					<input  placeholder="Start your search" type="text"/>
+					<img src="imgs/magnifier-logo.svg" alt="">
+				</div>
+				
+			</div>
+				<img id="search-btn" src="" alt="" />
+			<div id="right-nav">
+				<button id="become-host">Become a Host</button>
+				<button id="language"><img id="globe-logo" src="imgs/globe-logo.svg" alt=""></button>
+				<div class="menu">
+					<img id="hamburger" src="imgs/hamburger-icon.svg" alt="">
+					<img id="user-icon" src="imgs/user-icon.svg" alt="">
+				</div>
+			</div>
+		</div>
 		<div id="wrapper">
 		<nav id="mobile-nav">
 			<p>Where are you going?</p>
 		</nav>
-		<nav id="desktop-nav">
-			<div class="logo"></div>
-			<div class="search-bar">
-				<input placeholder="Start your search" type="text" />
-				<img id="search-btn" src="" alt="" />
-			</div>
-			<div class="right-nav">
-				<button id="become-host"></button>
-				<button id="language"></button>
-				<div class="menu"></div>
-			</div>
 		</nav>
 		<section id="new-section">
 			<h1>Help house 100,000 refugees fleeing Ukraine</h1>
@@ -42,7 +50,7 @@
 			<h1>Inspiration for your next trip</h1>
 			<div class="cards">
 				<div class="card">
-					<img src="https://a0.muscache.com/im/pictures/d91de806-d2b9-4500-ab80-474d3e63ddd7.jpg?im_w=240" alt="">
+					<img src="https://a0.muscache.com/im/pictures/03626720-dc3d-4e49-8264-39231ba1e1e2.jpg?im_w=320" alt="">
 					<h3>Oran</h3>
 					<p>351 kilometers away</p>
 				</div>
@@ -66,30 +74,36 @@
 
 		<section id="section-3">
 			<h1>Discover Airbnb Experiences</h1>
-			<div id="left-card">
-				<div class="section3-content">
-					<h2>Things to do on your trip</h2>
-					<button class="card-btn">Experiences</button>
-				</div>
+			<div id="section-3-cards">
+
+				<div id="left-card">
+					<div class="section3-content">
+						<h2>Things to do on your trip</h2>
+						<button class="card-btn">Experiences</button>
+					</div>
 				</div>
 				
 				
 				<div id="right-card">
-						<div class="section3-content">
+					<div class="section3-content">
 						<h2>Things to do from home</h2>
 						<button class="card-btn">Online Experiences</button>
 					</div>
-					</div>
+				</div>
+			</div>
 		</section>
 
 		<section id="section-4">
-			<div>
-				<h1>Shop Airbnb gift cards</h1>
-				<button id="learn-more-btn">Learn more</button>
-			</div>
-			<div>
+			<div id="section-4-cards">
+
+				<div id="section-4-left">
+					<h1>Shop Airbnb gift cards</h1>
+					<button id="learn-more-btn">Learn more</button>
+				</div>
+				<div id="section-4-right">
 				<div id="cards-img"></div>
 			</div>
+		</div>
 
 			<h3>Inspiration for future getaways</h3>
 			<div class="destination-select">
@@ -119,54 +133,72 @@
 
 		<footer>
 			<div class="footer-section">
-				<div class="footer-wrapper">
+				<div class="footer-wrapper" style="padding-top: 12px;">
 					<h5>Support</h5>
+					<div class="footer-section-text">
 					<a href="">Help Center</a>
 					<a href="">Safety information</a>
 					<a href="">Cancellation options</a>
 					<a href="">Our COVID-19 Response</a>
 					<a href="">Supporting people with disabilities</a>
 					<a href="">Report a neighborhood concern</a>
+					</div>
 				</div>
 			</div>
 			<div class="footer-section">
 				<div class="footer-wrapper">
 				<h5>Community</h5>
+				<div class="footer-section-text">
 				<a href="">Airbnb.org: disaster relief housing</a>
 				<a href="">Support Afghan refugees</a>
 				<a href="">Combating discrimination</a>
+				</div>
 				</div>
 			</div>
 			<div class="footer-section">
 				<div class="footer-wrapper">
 				<h5>Hosting</h5>
+				<div class="footer-section-text">
 				<a href="">Try hosting</a>
 				<a href="">AirCover: protection for Hosts</a>
 				<a href="">Explore hosting resources</a>
 				<a href="">Visit our community forum</a>
 				<a href="">How to host responsibly</a>
 				</div>
+				</div>
 			</div>
 			<div class="footer-section">
 				<div class="footer-wrapper">
 				<h5>About</h5>
-				<a href="">Newsroom</a>
-				<a href="">Learn about new features</a>
-				<a href="">Letter from our founders</a>
-				<a href="">Careers</a>
-				<a href="">Investors</a>
-				<a href="">Airbnb Luxe</a>
+				<div class="footer-section-text">
+					<a href="">Newsroom</a>
+					<a href="">Learn about new features</a>
+					<a href="">Letter from our founders</a>
+					<a href="">Careers</a>
+					<a href="">Investors</a>
+					<a href="">Airbnb Luxe</a>
+				</div>
 				</div>
 			</div>
 			<div class="footer-section">
 				<div class="footer-links">
-					<a href="" style="text-decoration: underline;">English (US)</a>
-					<span style="font-size: 0.8rem;">$
-</span>
-					<a href="" style="text-decoration: underline;">USD</a>
+					<div id="left-footer-links">
+						<a href="" style="text-decoration: underline;"><img style="margin-right: 5px;" id="globe-logo" src="imgs/globe-logo.svg" alt=""> English (US)</a>
+						<span style="font-size: 0.8rem; padding-left: 20px;">$
+						</span>
+						<a href="" style="text-decoration: underline;">USD</a>
+					</div>
+					<div class="social-media">
+					<img style="width: 20px;" id="fb-logo" src="imgs/fb-logo.svg" alt="">
+					<img style="width: 18px;" id="twitter-logo" src="imgs/twitter-logo.svg" alt="">
+					<img style="width: 35px;" id="insta-logo" src="imgs/insta-logo.svg" alt="">
+				</div>
 				</div>
 
-				<p>© 2022 Airbnb, Inc.</p>
+				<p style="font-size: 0.9rem; display: flex;
+		justify-content: center;
+		align-items: center;	">© 2022 Airbnb, Inc.</p>
+		
 				<div class="legal">
 					<a href="">Privacy</a>
 					<p>·</p>
@@ -175,7 +207,7 @@
 					<a href="">Sitemap</a>
 				</div>
 				<div class="language-currency"></div>
-				<div class="social-media"></div>
+				
 			</div>
 		</footer>
 	</body>
