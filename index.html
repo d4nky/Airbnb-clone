@@ -7,8 +7,8 @@
 		<link rel="stylesheet" href="style.css">
 		<title>Airbnb</title>
 	</head>
-	<body>
-		
+	<body>	
+		<div id="wrapper">
 		<nav id="mobile-nav">
 			<p>Where are you going?</p>
 		</nav>
@@ -27,39 +27,79 @@
 		<section id="new-section">
 			<h1>Help house 100,000 refugees fleeing Ukraine</h1>
 			<button id="learn-more"><p>Learn more</p></button>
+			<div id="black-bg"></div>
 		</section>
 		<section id="section-1">
 			<div id="card-1">
 				<div id="content">
 					<h1>Let your curiosity do the booking</h1>
-					<button id="flexible"><p>I'm flexible</p></button>
+					<button id="flexible"><p> I'm flexible</p></button>
 				</div>
 			</div>
 		</section>
 
 		<section id="section-2">
-			<h1>Discover Airbnb Experiences</h1>
-			<div id="left-card">
-				<h1>Things to do on your trip</h1>
-				<button class="card-btn">Experiences</button>
-			</div>
-			<div id="right-card">
-				<h1>Things to do from home</h1>
-				<button class="card-btn">Online Experiences</button>
+			<h1>Inspiration for your next trip</h1>
+			<div class="cards">
+				<div class="card">
+					<img src="https://a0.muscache.com/im/pictures/d91de806-d2b9-4500-ab80-474d3e63ddd7.jpg?im_w=240" alt="">
+					<h3>Oran</h3>
+					<p>351 kilometers away</p>
+				</div>
+				<div class="card">
+					<img src="https://a0.muscache.com/im/pictures/3a7b8005-28b8-48b8-8efa-0a6a00f7d5d8.jpg?im_w=320" alt="">
+					<h3>Hydra</h3>
+					<p>3 kilometers away</p>
+				</div>
+				<div class="card">
+					<img src="https://a0.muscache.com/im/pictures/aff9e173-b551-44e4-80f3-bd9b9d632f8b.jpg?im_w=320" alt="">
+					<h3>Chéraga</h3>
+					<p>8 kilometers away</p>
+				</div>
+				<div class="card">
+					<img src="https://a0.muscache.com/im/pictures/2f5a15c7-2170-420a-9c48-9ac88a80a7fa.jpg?im_w=320" alt="">
+					<h3>El biar</h3>
+					<p>2 kilometers away</p>
+				</div>
 			</div>
 		</section>
 
 		<section id="section-3">
+			<h1>Discover Airbnb Experiences</h1>
+			<div id="left-card">
+				<div class="section3-content">
+					<h2>Things to do on your trip</h2>
+					<button class="card-btn">Experiences</button>
+				</div>
+				</div>
+				
+				
+				<div id="right-card">
+						<div class="section3-content">
+						<h2>Things to do from home</h2>
+						<button class="card-btn">Online Experiences</button>
+					</div>
+					</div>
+		</section>
+
+		<section id="section-4">
 			<div>
 				<h1>Shop Airbnb gift cards</h1>
-				<button>Learn more</button>
+				<button id="learn-more-btn">Learn more</button>
 			</div>
 			<div>
 				<div id="cards-img"></div>
 			</div>
 
 			<h3>Inspiration for future getaways</h3>
-			<div class="destination-select"></div>
+			<div class="destination-select">
+				<button><p>Destination for arts & culture</p></button>
+				<button><p>Destinations for outdoor adventure</p></button>
+				<button><p>Mountain cabins</p></button>
+				<button><p>Beach destinations</p></button>
+				<button><p>Popular destinations</p></button>
+				<button><p>Unique Stay</p></button>
+			</div>
 			<div class="destinations">
 				<a href="">Phoenix<span>Arizona</span></a>
 				<a href="">San Francisco <span>California</span></a>
@@ -72,16 +112,66 @@
 				<a href="">Scarborough<span>England</span></a>
 				<a href="">San Diego<span>California</span></a>
 				<a href="">Washington<span>Distric of Columbia</span></a>
-				<a href="">Show More</a>
+				<a href="" style="text-decoration: underline;">Show More</a>
 			</div>
 		</section>
+	</div>
 
 		<footer>
-			<div></div>
-			<div>
-				<div class="Legal">
+			<div class="footer-section">
+				<div class="footer-wrapper">
+					<h5>Support</h5>
+					<a href="">Help Center</a>
+					<a href="">Safety information</a>
+					<a href="">Cancellation options</a>
+					<a href="">Our COVID-19 Response</a>
+					<a href="">Supporting people with disabilities</a>
+					<a href="">Report a neighborhood concern</a>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-wrapper">
+				<h5>Community</h5>
+				<a href="">Airbnb.org: disaster relief housing</a>
+				<a href="">Support Afghan refugees</a>
+				<a href="">Combating discrimination</a>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-wrapper">
+				<h5>Hosting</h5>
+				<a href="">Try hosting</a>
+				<a href="">AirCover: protection for Hosts</a>
+				<a href="">Explore hosting resources</a>
+				<a href="">Visit our community forum</a>
+				<a href="">How to host responsibly</a>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-wrapper">
+				<h5>About</h5>
+				<a href="">Newsroom</a>
+				<a href="">Learn about new features</a>
+				<a href="">Letter from our founders</a>
+				<a href="">Careers</a>
+				<a href="">Investors</a>
+				<a href="">Airbnb Luxe</a>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-links">
+					<a href="" style="text-decoration: underline;">English (US)</a>
+					<span style="font-size: 0.8rem;">$
+</span>
+					<a href="" style="text-decoration: underline;">USD</a>
+				</div>
+
+				<p>© 2022 Airbnb, Inc.</p>
+				<div class="legal">
 					<a href="">Privacy</a>
+					<p>·</p>
 					<a href="">Terms</a>
+					<p>·</p>
 					<a href="">Sitemap</a>
 				</div>
 				<div class="language-currency"></div>
