@@ -14,6 +14,9 @@ body {
 button {
 	cursor: pointer;
 }
+#big-logo{
+	display: none;
+}
 #wrapper {
 	padding-left: 25px;
 	padding-right: 25px;
@@ -185,18 +188,20 @@ button {
 	padding: 15px 25px;
 	background: white;
 }
-
-#cards-img {
-	background-image: url("https://a0.muscache.com/im/pictures/204eea7c-fd71-4316-b056-7e2cc664351d.jpg?im_w=1440");
-	background-size: cover;
-	left: 0px;
-    right: 0px;
-    object-fit: cover;
-    vertical-align: bottom;
-	height: 400px;
+#section-4-cards{
+	padding-bottom: 50px;
+}
+#section-4-right{
 	width: 100%;
-    background-repeat: no-repeat;
+	overflow: hidden;
+}
+#cards-img img{
+	height: 300px;
+	width: 550px;
 	margin-top: 50px;
+	object-fit: cover;
+    object-position: center center;
+    vertical-align: bottom;
 }
 .destionations {
 	color: black;
@@ -520,7 +525,100 @@ footer a:hover{
 }
 
 @media (min-width: 941px) {
+	#desktop-nav{
+
+	}
+	.search-bar{
+		margin-left: 220px;
+	}
+	#left-card{
+		height: 70vh;
+	}
+	#right-card{
+		height: 70vh;
+	}
 }
 
 @media (min-width: 1121px) {
+	#wrapper{
+		padding-left: 80px;
+		padding-right: 80px;
+	}
+	#desktop-nav{
+		padding-right: 80px;
+		padding-left: 80px;
+	}
+	.search-bar{
+		margin-left: 220px;
+	}
+	#small-logo{
+		display: none;
+	}
+	#logo img{
+		width: 100px;
+	}
+	#big-logo{
+		display: block;	
+		margin-bottom: 5px;
+	}
+	#new-section h1{
+		width: 100%;
+		font-size: 2.3rem;
+	}
+	#content h1{
+		font-size: 2.3rem;
+	}
+	#flexible{
+		padding: 14px 32px;
+		font-size: 18px;
+		margin-top: 32px;
+	}
+	#section-2{
+		margin-top: 50px;
+	}
+	#section-2 h1{
+		margin-bottom: 25px;
+		font-size: 2.125rem;
+	}
+	.card h3{
+		font-size: 1.7rem;
+	}
+	#section-3{
+		margin-top: 50px;
+	}
+	#section-3 h1{
+		margin-bottom: 25px;
+		font-size: 2.125rem;
+	}
+	.section3-content{
+		padding: 0;
+	}
+	#left-card{
+		padding: 40px;
+	}
+	#right-card{
+		padding: 40px;
+	}
+	#section-3-cards h2{
+		font-size: 41px;
+		line-height: 40px;
+	}
+	#section-4{
+		margin-top: 50px;
+	}
+	#section-4-left{
+		margin-right: 70px;
+	}
+	#section-4-left h1{
+		font-size: 41px;
+	}
+	#cards-img img{
+		width: 100%;
+	}
+	#section-4 h3{
+		margin-top: 50px;
+	}
+	.destinations a{
+		flex: 3 2 auto;
+	}
 }
