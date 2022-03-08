@@ -333,6 +333,7 @@ footer a:hover{
 	margin-top: -15px;
 }
 #copyright-small{
+	display: flex;
 	justify-content: flex-start;
 }
 #globe-logo{
@@ -668,6 +669,11 @@ footer a:hover{
 	}
 	.legal{
 		order: 2;
+		padding: 0;
+		gap: 15px;
+	}
+	.legal a{
+		margin-bottom: -10px;
 	}
 	#copyright-big{
 		display: block;
