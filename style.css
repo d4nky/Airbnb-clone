@@ -317,6 +317,9 @@ footer a:hover{
 		display: flex;
 		flex-direction: column;
 	}
+	.sections{
+		padding-top: 12px;
+	}
 .legal{
 	padding-left: 25px;
 	padding-right: 25px;
@@ -656,7 +659,7 @@ footer a:hover{
 		flex: 3 2 auto;
 	}
 	.footer-section{
-		padding: 10px 80px;
+		padding: 0px 80px;
 	}
 	.footer-links-container{
 		display: flex;
@@ -680,5 +683,28 @@ footer a:hover{
 	}
 	#copyright-small{
 		display: none;
+	}
+	.sections{
+		display: flex;
+		padding-top: 30px;
+	}
+	.sections .footer-section{
+		padding-top: 12px;
+	}
+	.sections .footer-wrapper{
+		border: none;
+		display: flex;
+		flex-direction: column;
+	}
+	.sections .footer-wrapper a{
+		display: flex;
+		flex-direction: row;
+		flex-basis: auto;
+		width: 100%;
+		flex-wrap: nowrap;
+	}
+	.footer-links-container{
+		border-top: 1px solid #dddddd;
+		padding: 20px 0;
 	}
 }
